@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	padding: 0px;
+  }
+  
+  body{
+	background: hsl(182, 88%, 53%);
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  #container{
+	/*width: max-content;*/
+	border: 1px solid black;
+  }
+  
+  header{
+	background: #dde023;
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	line-height: 100px;
+	
+  }
+  
+  .logo {  
+	float: left;
+	height: 100px; 
+	width: 100px; 
+  }
+  .img1 {  
+	float: left;
+	height: 100px; 
+	width: 100px; 
+  }
+  
+  .navbar {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  .subnav {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+	background-color: green;
+  }
+  
+  .subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: #00FFF5 ;
+	width: 100%;
+	z-index: 1;
+  }
+  
+  .subnav-content a {
+	float: left;
+	color: green;
+	text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+	background-color: white;
+	color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+	display: block;
+  }
+  
+  .clearfix{
+	clear: both;
+  }
+  
+  #content{
+	float: left;
+	width: calc(55%);
+	min-height: 550px;
+	background: cornsilk;
+  }
+  
+  #content2{
+	float: left;
+	width: calc(30%);
+	min-height: 550px;
+	background: #e9131e;
+  }
+  
+  #content3{
+	float: left;
+	width: 100%;
+	min-height: 550px;
+	background: #f7f7f7;
+  }
+  
+  aside{
+	float: left;
+	width: 15%;
+	min-height: 550px;
+	background: orange;
+  }
+  
+  footer{
+	background: black;
+	color: white;
+	text-align: right;
+	height: 50px;
+	line-height: 50px;
+	padding-right: 10px;
+  }
+  
+  h3{
+	  font-size:40px;
+	  color: #886811;
+	  font-weight: bold;
+  }
+  
+  p {
+	  color: white;
+	  font-size:20px;
+	  background:#82856A;
+  }
+  

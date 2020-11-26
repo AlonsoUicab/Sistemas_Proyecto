@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+  /*width: max-content;*/
+  border: 1px solid black;
+}
+
+header{
+  background: #dde023;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+.logo {  
+  float: left;
+  height: 100px; 
+  width: 100px; 
+}
+
+.foto {  
+  height: 240px; 
+  width: 250px; 
+}
+.foto2 {  
+  height: 230px; 
+  width: 230px; 
+}
+
+.img1 {  
+	float: left;
+	height: 150px; 
+  width: 150px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  
+  }
+
+
+#botons{ 
+  position: relative;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar b {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: green;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #00FFF5 ;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: green;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#content{
+  float: left;
+  width: calc(80%);
+  min-height: 100%;
+  background: white;
+}
+
+
+aside{
+  float: right;
+  column-width: calc(20%);
+  min-height: 100%;
+  background: white;
+  border-radius: 1px;
+  border: 1px solid black;
+}
+
+
+footer{
+  background: black;
+  color: white;
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 10px;
+}
